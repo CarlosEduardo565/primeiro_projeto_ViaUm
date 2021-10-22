@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link src="https://kit.fontawesome.com/f0ff1b9d7a.js" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="content first-content"> 
+          <div class="first-column">
+            <h2 class="title title-primary"> Bem vindo! </h2>
+            <p class="description description-primary">Coloque o Login e a senha para Logar</p>
+            <button class="btn btn-primary"> sign in</button>
+        </div>
+        <div class="second-column">
+            <h2 class="title title-second"> Crie sua conta</h2>
+            <p class="description description-second">Escolha o tipo de conta a ser criada:</p>
+            <div class="tipo">
+              <li class="item-tipo">
+                <input type="checkbox" name="tipo_de_cadastro" id="tipo1" value="DHO">
+                <label for="tipo1">DHO</label>
+              </li>
+              <li class="item-tipo">
+                <input type="checkbox" name="tipo_de_cadastro" id="tipo2" value="Gestor">
+                <label for="tipo1">Gestor</label>
+             </li>
+             <li class="item-tipo">
+                <input type="checkbox" name="tipo_de_cadastro" id="tipo3" value="Funcionario">
+                <label for="tipo1">Funcionario</label>
+            </li>
+            <form class="form">
+              <ul class="list-form"></ul>
+               <label class="label-input" for="">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder=" ID do Usuario">
+              </label>
+              <label class="label-input" for="">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email">
+            </label>
+            <label class="label-input" for="">
+                <i class="fa-solid fa-lock"></i>
+                <input type="text" placeholder="Senha">
+            </label>
+                <button class="btn btn-second"> sign in</button>
+            </form>
+
+            </div>
+        </div>
+    </div>
+        <div class="content second-content">
+          <div class="first column">
+              <h2 class="title"> Bem vindo! </h2>
+              <p class="description">insira os dados para fazer o cadastro</p>
+              <button class="btn"> sign in</button>
+          </div>
+          <div class="second column">
+              <h2 class="title"> Crie sua conta</h2>
+              <p class="description">Escolha o tipo de conta a ser criada:</p>
+              <div class="tipo">
+                  <input type="checkbox" name="tipo_de_cadastro" id="tipo1" value="DHO">
+                  <label for="tipo1">DHO</label>
+                  <input type="checkbox" name="tipo_de_cadastro" id="tipo2" value="Gestor">
+                  <label for="tipo1">Gestor</label>
+                  <input type="checkbox" name="tipo_de_cadastro" id="tipo3" value="Funcionario">
+                  <label for="tipo1">Funcionario</label>
+              <form class="form">
+                  <input type="text" placeholder="ID Usuario">
+                  <input type="email" placeholder="Email">
+                  <input type="text" placeholder="ID">
+                  <button class="btn btn-second"> sign in</button>
+              </form>
+
+              </div>
+      </div>
+</body>
+</html>
